@@ -10,24 +10,29 @@ h1{
     padding: 0px 150px 0px 150px;
     text-align: center;
 }
+h2{
+    margin-top: 8%;
+    margin-bottom: 1%; 
+    font-size: 45px;
+    text-align: center;
+}
 p{
     font-weight: 400px; 
-}
-#top-banner-paragraph{
-    color: #ffff; 
+    text-align: center; 
 }
 a{
     text-align: center;
     text-decoration: none;
     background-color: #ff5959;
-    border-radius: 10%;
+    border-radius: 5%;
     color: #ffff; 
-    padding: 10px;
-     
-    
+    padding: 10px;   
 }
+
+
+
+
 .top-banner{
-    
     background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(images/donation13.jpg);
     background-size: cover;
     background-position: center;
@@ -37,16 +42,89 @@ a{
     justify-content: center;
     align-items: center;
 }
+.second-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.money-amount{
+    display: flex;
+}
+.money-amount div{
+    background-color: #fafafa;
+    width: 100px;
+    height: 75px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #707070;
+    margin: 10px;
+    padding: 20px;  
+    text-align: center; 
+}
+.form div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #b3b3b3;
+    border: none;
+    margin-top: 45px;
+
+}
+.form input{
+    border: none;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #b3b3b3;
+    width: 200%;
+    text-align: center;
+    font-size: 25px;
+    
+}
 
 .footer{
     background-color: black;
-    padding: 2%;
-    text-align: center;
+    padding-bottom: 20px;
+}
 
+
+
+
+#top-banner-paragraph{
+    color: #ffff; 
+    padding: 0px 320px 0px 320px;
+}
+#second-sec-paragraph{
+    color: #707070; 
+    padding: 0 25% ;
+}
+#two-hundred{
+    border: 2px solid #ff5959;
+    color: #ff5959;
+    background-color: #ffeeee; 
+
+}
+#other-amount{
+    color: #b3b3b3;
+    margin-top: 45px;
+}
+#second-anchor{
+    width: 50%;
+    margin-left: 20%;
+    padding-left: 50%;
+    display: flex;
+    margin-top: 2%;
+    text-align: center;
+    padding: 10px 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
 }
 #footer-heading{
     color:#ff5959;
     font-family: Lobster;
+    padding-top: 45px;
 }
 #footer-paragraph{
     color: #D9DBE1;
